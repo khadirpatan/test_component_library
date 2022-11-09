@@ -1,6 +1,6 @@
 {
   "name": "@khadirpatan/test_component_library",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "My personal React component Library ",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khadirpatan/test_react_library.git"
+    "url": "git+https://github.com/khadirpatan/test_component_library.git"
   },
   "keywords": [],
   "author": "",
