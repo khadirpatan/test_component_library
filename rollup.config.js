@@ -4,7 +4,7 @@ import pkg from './package.json';
 
 export default [
   {
-    input: 'src/index.js',
+    input: 'src/index.ts',
     output: [
       {
         file: 'playground/src/component-lib/index.js',
@@ -21,3 +21,4 @@ export default [
     external: Object.keys(pkg.peerDependencies || {}),
   },
 ];
+Footer
