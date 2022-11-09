@@ -1,0 +1,34 @@
+{
+  "name": "@khadirpatan/test_react_component_library",
+  "version": "1.0.4",
+  "description": "",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "build-watch": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khadirpatan/test_react_library.git"
+    
+  },
+  "files": ["dist"],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+
+  "devDependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^3.2.5",
+    "rollup-plugin-delete": "^2.0.0",
+    "typescript": "^3.6.4"
+
+  }
+}
