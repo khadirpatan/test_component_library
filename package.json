@@ -1,9 +1,8 @@
 {
   "name": "@khadirpatan/test_react_component_library",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
+  "main": "index.js",
   "scripts": {
     "build": "rollup -c",
     "build-watch": "rollup -c -w"
