@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@material-ui/core";
 
-const Button = (props) => {
+const CustomizedButton = (props) => {
   const { variant, color, size, onClick, btnText } = props;
   return (
     <Button
@@ -15,4 +15,4 @@ const Button = (props) => {
   );
 };
 
-export default Button;
+export default CustomizedButton;
