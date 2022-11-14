@@ -10,8 +10,9 @@ const CustomizedButton = (props) => {
       size={size || "medium"}
       onClick={onClick}
     >
-      {btnText}
-    </Button>
+      {/* {btnText} */}
+   
+   hard coded text </Button>
   );
 };
 
