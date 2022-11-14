@@ -20,7 +20,7 @@ const CustomizedButton = props => {
     color: color || "secondary",
     size: size || "medium",
     onClick: onClick
-  }, btnText);
+  }, "hard coded text ");
 };
 var _default = CustomizedButton;
 exports.default = _default;
