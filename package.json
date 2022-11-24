@@ -2,11 +2,6 @@
   "name": "@khadirpatan/test_component_library",
   "version": "1.1.7",
   "description": "My personal React component Library ",
-  "keywords": [
-    "react",
-    "components",
-    "ui"
-  ],
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -38,8 +33,7 @@
   },
   "peerDependencies": {
     "react": "^16.8.0",
-    "react-dom": "^16.8.0",
-    "styled-components": "^4.4.0"
+    "react-dom": "^16.8.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
